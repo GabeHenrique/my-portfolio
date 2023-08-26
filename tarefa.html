@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>SuperDev</title>
+
+<body class="bg-dark">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SuperDev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#secao1">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#secao2">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#secao3">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div id="carouselExampleControls" class="carousel slide w-80" data-bs-ride="carousel">
+        <div class="carousel-inner center-block">
+          <div class="carousel-item active">
+            <img src="assets/banner1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+    
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <main class="container mt-5">
+        <section id="secao1" class="mb-4">
+            <div class="card" style="background-color: #DDDDDD;">
+                <div class="card-body">
+                    <h2 class="mb-3 ml-3 card-title">Se surpreenda com o nosso trabalho!</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quisquam sed
+                        maiores deleniti eos
+                        ratione
+                        provident tempora tempore aliquid qui quidem, sequi at, repudiandae consequuntur magnam. Qui,
+                        ducimus
+                        magni! Qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eligendi tenetur
+                        delectus ratione. Omnis quasi quibusdam consequuntur velit quia eligendi consequatur nam ea
+                        aspernatur!
+                        Quam suscipit praesentium temporibus excepturi hic!</p>
+                </div>
+            </div>
+        </section>
+        <section id="secao2" class="mb-4">
+            <div class="card" style="background-color: #DDDDDD;">
+                <div class="card-body">
+                    <h2 class="mb-3 ml-3 card-title">Sobre mim</h2>
+                    <p class="card-text"><strong>Olá, me chamo Gabriel,</strong></p>
+                    <p class="card-text">sou um desenvolvedor back-end com experiência em Java com o uso do Spring
+                        Framework, Thymeleaf e JasperReport.</p>
+                    <p class="card-text">Minha carreira na área tech começou em 2021 como estagiário em desenvolvimento.
+                        No início eu apenas documentava APIs criadas pelos desenvolvedores da empresa, mas com o tempo
+                        fui me desenvolvendo nas tecnologias e passei a desenvolver novas funcionalidades para o projeto
+                        atual no qual trabalhávamos. Em parceria com outra empresa, fui prommovido a desenvolvedor
+                        júnior na Nuvy ERP, onde estou até o presente momento.</p>
+                    <p class="card-text">Sou formado em Administração de Empresas e estou no Terceiro Semestre de
+                        Análise e Desenvolvimento de Sistemas.</p>
+                </div>
+            </div>
+        </section>
+        <section id="secao3" class="mb-4">
+            <div class="card" style="background-color: #DDDDDD;">
+                <div class="card-body">
+                    <h2 class="mb-3 ml-3 card-title">Contato</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" placeholder="Insira seu nome" class="form-control" id="name" name="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" placeholder="exemplo@exemplo.com.br" class="form-control" id="email"
+                                name="email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2023. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
